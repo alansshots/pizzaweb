@@ -1,0 +1,177 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.6;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-transform: none;
+    padding: 0.6rem;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+}
+
+/* Utilities */
+.btn-dark {
+    background: transparent;
+    border: 1px solid #333;
+    color: #333;
+    padding: 0.2rem;
+    margin-top: 1rem;
+}
+
+.btn-dark:hover {
+    border-radius: 20px;
+    transition: 0.5s ease-in-out;  
+}
+
+.btn-a {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-left: 0.5rem;
+}
+
+.btn-a:hover {
+    border-radius: 20px;
+    transition: 0.5s ease-in-out;    
+}
+
+.btn {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 0.3rem;
+    margin-top: 1rem;
+}
+
+.btn:hover {
+    border-radius: 20px;
+    transition: 0.5s ease-in-out;    
+}
+
+/* Section First-look */
+
+#first-look {
+    background: url('baner.jpg') no-repeat center;
+    height: 100vh;
+}
+
+/* Navbar */
+
+.navbar {
+    background: #333;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    opacity: 0.7;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Text on top */
+
+#first-look .container {
+    text-align: center;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+#first-look .container h1 {
+    margin-top: 19rem;
+}
+
+/* display */
+
+#display {
+    width: 1100px;
+    margin-top: 3rem;
+    margin-left: 23rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+#display .pic img {
+    width: 300px;
+}
+
+#display .text {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* display2 */
+
+#display2 {
+    width: 1100px;
+    margin-top: 3rem;
+    margin-left: 23rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    /* align-items: center;
+    justify-content: center; */
+
+}
+
+#display2 .pic img {
+    width: 300px;
+}
+
+
+#display2 .text {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Footer */
+
+#footer {
+    margin-top: 3rem;
+    background:#333;
+    color: #fff;
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
